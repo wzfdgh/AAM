@@ -11,8 +11,6 @@ extra:
       link: https://github.com
     - icon: material/file-document
       link: https://github.com/
-    - icon: https://img.shields.io/badge/telegram-AutoAnimeMv-blue?style=flat&logo=telegram
-      link: https://t.me/AutoAnimeMv
 theme:
   name: material
   logo: assets/images.jpeg
