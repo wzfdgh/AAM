@@ -1,0 +1,57 @@
+site_name: AutoAnimeMv-Docs
+site_url: http://aam.github.io
+repo_url: https://github.com/NTR-Project/AutoAnimeMv
+repo_name: NTR-Project/AutoAnimeMv
+edit_uri: blob/main
+copyright: Copyright &copy; 2023 - 2024 AutoAnimeMv NTR-Project.
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com
+    - icon: material/file-document
+      link: https://github.com/
+    - icon: https://img.shields.io/badge/telegram-AutoAnimeMv-blue?style=flat&logo=telegram
+      link: https://t.me/AutoAnimeMv
+theme:
+  name: material
+  logo: assets/images.jpeg
+  favicon: assets/images.jpeg
+  features:
+    - search.highlight
+    - navigation.tracking
+    - navigation.instant
+    # - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - content.action.edit
+    - content.code.copy
+    # - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+nav:
+  - Home: index.md
+  - FAQ: faq/faq.md
+  - 配置:
+    - 配置详解: config/config.md
+    - 脚本: config/script.md
+  - 开发:
+    - PR相关: dev/contribution.md
+    - 模块: dev/module.md
