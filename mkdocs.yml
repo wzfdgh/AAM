@@ -1,9 +1,9 @@
-site_name: AutoAnimeMv-Docs
-site_url: http://aam.github.io
-repo_url: https://github.com/NTR-Project/AutoAnimeMv
-repo_name: NTR-Project/AutoAnimeMv
+site_name: AAM-Docs
+site_url: https://AutoAnimeMV-Teams.github.io/AAM-DOCS
+repo_url: https://github.com/AutoAnimeMV-Teams/AutoAnimeMv
+repo_name: AutoAnimeMV-Teams/AutoAnimeMv
 edit_uri: blob/main
-copyright: Copyright &copy; 2023 - 2024 AutoAnimeMv NTR-Project.
+copyright: Copyright &copy; 2023 - 2024 AutoAnimeMv .
 extra:
   generator: false
   social:
